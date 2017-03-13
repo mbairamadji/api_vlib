@@ -1,0 +1,16 @@
+
+body {
+	font-family: Arial;
+	padding: 10px;
+}
+#map {
+	margin: auto;
+}
+
+#Infos {
+	text-align: center;
+}
+
+h2 {
+	text-align: center;
+}

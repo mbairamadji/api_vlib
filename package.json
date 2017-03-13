@@ -1,0 +1,22 @@
+{
+  "name": "vlib",
+  "version": "1.0.0",
+  "description": "",
+  "main": "vlib.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.16.1",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.14.1",
+    "jade": "^1.11.0",
+    "morgan": "^1.8.1",
+    "nodemon": "^1.11.0",
+    "path": "^0.12.7",
+    "request": "^2.79.0",
+    "serve-favicon": "^2.4.0"
+  }
+}

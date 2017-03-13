@@ -1,0 +1,13 @@
+doctype html
+html
+	head
+		link(href="/css/style.css", rel="stylesheet")
+		script(src="https://code.jquery.com/jquery-3.1.1.min.js")
+		script(src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js")
+		title Api Vlib
+	body
+	block content
+		h2 LISTE DE STATION VLIB A MONTREUIL
+		each elt in data
+			if elt.name.includes("MONTREUIL") && elt.name.indexOf("31") == 0
+				p= elt.name + " - " + elt.address

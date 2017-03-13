@@ -1,0 +1,24 @@
+html
+	head
+		link(href="https://unpkg.com/leaflet@1.0.3/dist/leaflet.css", rel="stylesheet")
+		link(href="/css/lagny.css", rel="stylesheet")
+		title Api Vlib
+		script(src="https://unpkg.com/leaflet@1.0.3/dist/leaflet.js")
+	body
+		h2 Station #{data.name}
+		#Infos
+			p #{data.address}
+			p Nombre total de stand: #{stands}
+			p Nombre de stand libre: #{available_stands}
+			p Nombre de velo disponible: #{available_bikes}
+			block content
+				
+			#map(style='height: 500px; width: 80%')
+				script.
+					var map = L.map("map").setView([48.84923030086477, 2.421429940007031], 16);
+					L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'}).addTo(map);
+
+					var marker = L.marker([48.84923030086477, 2.421429940007031]).addTo(map);
+					marker.bindPopup("<b>Station Vlib 31001</b><br>Montreuil").openPopup();
+
+					
