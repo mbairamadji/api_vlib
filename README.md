@@ -1,6 +1,6 @@
 # api_vlib
 
-Utilisation de l'api de [**JC DECAUX**](https://developer.jcdecaux.com/#/opendata/vls?page=getstarted) pour avoir en temps réel la disponibilité de vlib dans la commune de Montreuil.
+Utilisation de l'api de [**JC DECAUX**](https://developer.jcdecaux.com/#/opendata/vls?page=getstarted) pour avoir en temps réel la disponibilité des vlib dans la commune de Montreuil.
 
 
 ## Technologies utilisées
